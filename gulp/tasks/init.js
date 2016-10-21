@@ -123,7 +123,7 @@ gulp.task('cleanup:global', function() {
   removeGlobalDirs();
 });
 
-gulp.task('prepare-module', function() {
+gulp.task('init', function() {
   gulp.src(locations.files).pipe(prompt.prompt([{
     type: 'input',
     name: 'packageName',

@@ -8,10 +8,10 @@
     "url": "https://github.com/fragaria/ng2-f-template-module.git"
   },
   "scripts": {
+    "init": "gulp init",
     "lint": "npm run lint:ts",
     "lint:ts": "tslint src/{,**/}*.ts",
     "postinstall": "typings install",
-    "prepare-module": "gulp prepare-module",
     "tslint": "tslint",
     "typedoc": "typedoc",
     "typings": "typings"
